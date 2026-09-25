@@ -1,7 +1,6 @@
-[README.md](https://github.com/user-attachments/files/28648887/README.md)
 # MAAC-ML: Machine Learning of Metal-Catalyzed Azide–Alkyne Cycloaddition
 
-A compact, fully reproducible package containing **(i) a consistent DFT database** of metal-catalyzed azide–alkyne ("click") cycloaddition (MAAC) and **(ii) a single script** that rebuilds the complete machine-learning analysis — calibrated activation-barrier prediction, mechanistic design rules, uncertainty-aware screening, and an energetic-span ranking — directly from that database.
+A compact, fully reproducible package containing **(1) a consistent DFT database** of metal-catalyzed azide–alkyne ("click") cycloaddition (MAAC) and **(2) a single script** that rebuilds the complete machine-learning analysis — calibrated activation-barrier prediction, mechanistic design rules, uncertainty-aware screening, and an energetic-span ranking — directly from that database.
 
 This repository accompanies the article *"Machine Learning of Metal-Catalyzed Azide–Alkyne Cycloaddition from a Consistent DFT Dataset: Calibrated Activation-Barrier Prediction, Mechanistic Design Rules, and Uncertainty-Aware Screening"* (Khairbek et al.).
 
@@ -91,7 +90,7 @@ All results are written to a new `MAAC_outputs/` folder.
 | `fig_screening_enrichment.png` | Uncertainty-aware virtual-screening enrichment curve |
 | `fig_energetic_span.png` | Apparent energetic span (δE) per metal |
 
-**Tables (CSV):** `MAAC_modeling_table.csv` (the assembled feature/target table), `MAAC_screening_ranking.csv` (systems ranked by predicted barrier with uncertainty), `MAAC_energetic_span.csv` (per-system δE).
+**Tables (CSV):** `MAAC_modeling_table.csv` (the assembled feature/target table), `MAAC_screening_ranking.csv` (systems ranked by predicted barrier with uncertainty), `MAAC_energetic_span.csv` (per-system δE), `MAAC_leave_one_study_out.csv` (GP accuracy, bias and uncertainty coverage for each source study withheld in turn — Table 3 of the paper).
 
 **Console summary:** model-comparison metrics, GP accuracy and calibration, grouped-CV R², SHAP top features, screening enrichment factor, and the per-metal energetic-span ranking.
 
@@ -103,6 +102,7 @@ All results are written to a new `MAAC_outputs/` folder.
 - **Model comparison (leave-one-out):** Ridge 0.34 ≪ {RandomForest 0.68, GradientBoosting 0.66, XGBoost 0.69, MLP 0.77} ≈ **Gaussian process 0.76** → accuracy is *data-limited*, not model-limited.
 - **Primary GP model:** R² = 0.76, MAE = 3.22 kcal mol⁻¹, with **calibrated uncertainty** (73% of points within ±1σ, 94% within ±2σ).
 - **Applicability domain (per-metal LOO):** Cu R² = 0.78 (MAE 2.29), Ag 0.75, Au 0.60, Rh 0.54, Ru 0.05; grouped cross-validation across unseen families R² = 0.21.
+- **Leave-one-study-out (GP retrained without each source study):** R² = 0.22, MAE = 4.84 kcal mol⁻¹, yet the uncertainty stays calibrated under extrapolation — mean predicted σ rises from 4.45 to 6.64 kcal mol⁻¹ and still covers 80% / 94% of held-out values at 1σ / 2σ. Fitted kernel on the full set: σ_f² = 1.66, ℓ = 3.04, σ_n² = 0.14 (standardized-target units).
 - **Design rules (SHAP):** dominated by reaction step, metal partial charge, charge-transfer index ΔN_max, and metal identity.
 - **Uncertainty-aware screening:** 3.1× enrichment of low-barrier systems in the top 20% (no transition-state search needed).
 - **Energetic span (Kozuch–Shaik):** apparent δE Cu 10.6 < Ag 22.0 ≈ Au 22.5 < Rh 30.4 kcal mol⁻¹.
@@ -114,7 +114,7 @@ All results are written to a new `MAAC_outputs/` folder.
 1. Loads `structures.csv` + `barriers.csv` and assembles an 18-feature modeling table (8 electronic descriptors + `%Vbur` + metal charge + reaction step + metal + nuclearity).
 2. Benchmarks six regression families under leave-one-out cross-validation.
 3. Fits the primary Gaussian-process model, produces leave-one-out predictions **with uncertainty**, and tests calibration.
-4. Runs grouped cross-validation by source study (honest extrapolation limit).
+4. Runs grouped cross-validation by source study (honest extrapolation limit) and a leave-one-study-out evaluation of the GP itself (transferability by catalyst family, with the fitted kernel hyperparameters).
 5. Computes SHAP values and design-rule dependence plots.
 6. Performs uncertainty-aware virtual screening (enrichment + ranking).
 7. Computes the energetic span per system and aggregates by metal.
