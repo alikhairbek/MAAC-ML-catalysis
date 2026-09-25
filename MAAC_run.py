@@ -266,6 +266,52 @@ def run_analysis(database_dir, output_dir):
         grouped_prediction[test] = model.predict(X_values[test])
     print(f"  grouped-CV (unseen families): R2={r2_score(y, grouped_prediction):.2f}")
 
+    # ---- fitted GP hyperparameters on the full dataset (reported in Section 2.4) ----
+    full_scaler = StandardScaler().fit(X_values)
+    full_gp = GaussianProcessRegressor(kernel=make_kernel(), normalize_y=True,
+                                       alpha=1e-6, n_restarts_optimizer=0)
+    full_gp.fit(full_scaler.transform(X_values), y)
+    k_fit = full_gp.kernel_
+    sigma_f2 = k_fit.k1.k1.constant_value
+    length_scale = k_fit.k1.k2.length_scale
+    sigma_n2 = k_fit.k2.noise_level
+    print(f"  fitted kernel (standardized-target units): sigma_f^2={sigma_f2:.2f}  "
+          f"length_scale={length_scale:.2f}  sigma_n^2={sigma_n2:.2f}  "
+          f"(signal {np.sqrt(sigma_f2) * y.std():.1f}, noise {np.sqrt(sigma_n2) * y.std():.1f} kcal/mol)")
+
+    # ---- leave-one-study-out for the GP itself (Table 3: transferability by catalyst family) ----
+    loso_mean = np.zeros(len(y))
+    loso_std = np.zeros(len(y))
+    loso_rows = []
+    for study in sorted(set(groups)):
+        train = groups != study
+        test = groups == study
+        scaler = StandardScaler().fit(X_values[train])
+        gp = GaussianProcessRegressor(kernel=make_kernel(), normalize_y=True,
+                                      alpha=1e-6, n_restarts_optimizer=0)
+        gp.fit(scaler.transform(X_values[train]), y[train])
+        mean, std = gp.predict(scaler.transform(X_values[test]), return_std=True)
+        loso_mean[test], loso_std[test] = mean, std
+        error = mean - y[test]
+        loso_rows.append(dict(study=study, n=int(test.sum()),
+                              MAE=round(float(np.abs(error).mean()), 2),
+                              bias=round(float(error.mean()), 2),
+                              within_1sigma_pct=round(float(np.mean(np.abs(error) <= std) * 100), 1),
+                              within_2sigma_pct=round(float(np.mean(np.abs(error) <= 2 * std) * 100), 1),
+                              mean_sigma=round(float(std.mean()), 2)))
+    pooled_error = loso_mean - y
+    loso_rows.append(dict(study="ALL (pooled)", n=len(y),
+                          MAE=round(float(np.abs(pooled_error).mean()), 2),
+                          bias=round(float(pooled_error.mean()), 2),
+                          within_1sigma_pct=round(float(np.mean(np.abs(pooled_error) <= loso_std) * 100), 1),
+                          within_2sigma_pct=round(float(np.mean(np.abs(pooled_error) <= 2 * loso_std) * 100), 1),
+                          mean_sigma=round(float(loso_std.mean()), 2)))
+    pd.DataFrame(loso_rows).to_csv(f"{output_dir}/MAAC_leave_one_study_out.csv", index=False)
+    print(f"  leave-one-study-out (GP): R2={r2_score(y, loso_mean):.2f}  "
+          f"MAE={np.abs(pooled_error).mean():.2f}  mean_sigma={loso_std.mean():.2f}  "
+          f"within 1/2 sigma: {np.mean(np.abs(pooled_error) <= loso_std) * 100:.0f}% / "
+          f"{np.mean(np.abs(pooled_error) <= 2 * loso_std) * 100:.0f}%  -> MAAC_leave_one_study_out.csv")
+
     # ---- figures: parity, calibration, per-metal ----
     step_color = {1: "#2b6cb0", 2: "#dd6b20"}
     limits = [min(y.min(), gp_mean.min()) - 3, max(y.max(), gp_mean.max()) + 3]
@@ -458,7 +504,7 @@ def run_analysis(database_dir, output_dir):
         print("              (gplearn not available - symbolic step skipped)")
 
     print("\n" + "=" * 60)
-    print(f"DONE - all results are in {output_dir}/ (8 figures + 3 tables)")
+    print(f"DONE - all results are in {output_dir}/ (8 figures + 4 tables)")
     print("=" * 60)
 
 
