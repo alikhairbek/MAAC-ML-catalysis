@@ -1,0 +1,55 @@
+drawing,smiles,substitution,structure_id,system,role,mode,fragments_matched,structure_fragments,coordination_drawn,coordination_geometry,fragments_ok,coordination_ok,ok
+BnN3,[N-]=[N+]=NCc1ccccc1,,MAAC-00330,MCNHC_Cu_mono_cu1,RC,fragment,C7H7N3,C7H7N3 + C8H5 + C5H8N2,,,True,True,True
+HCCPh,C#Cc1ccccc1,,MAAC-00025,CTC_Ru_mono_cpstar,RC,fragment,C8H6,C10H15 + C7H7N3 + C8H6 + Cl,,,True,True,True
+triazole14,c1ccc(-c2cn(Cc3ccccc3)nn2)cc1,,MAAC-00023,CTC_Ru_mono_cpstar,product,fragment,C15H13N3,C10H15 + C15H13N3 + Cl,,,True,True,True
+triazole15,c1ccc(-c2cnnn2Cc2ccccc2)cc1,,MAAC-00035,CTC_Ru_mono_cpstar,product,fragment,C15H13N3,C10H15 + C15H13N3 + Cl,,,True,True,True
+XCCPh,[9*]C#Cc1ccccc1,[9*] = Br,MAAC-00772,RHALO_Cu_mono_c_br_br_br,alkyne complex,fragment,C8H5Br,C8H5Br + C18H15P + Br,,,True,True,True
+XCCPh,[9*]C#Cc1ccccc1,[9*] = Cl,MAAC-00816,RHALO_Cu_mono_c_cl_cl_cl,alkyne complex,fragment,C8H5Cl,C8H5Cl + C18H15P + Cl,,,True,True,True
+XCCPh,[9*]C#Cc1ccccc1,[9*] = I,MAAC-00836,RHALO_X_x_c_i,alkyne,fragment,C8H5I,C8H5I,,,True,True,True
+gen_CpRu,[2*]-[Ru]1(Cl)<-C(c2ccccc2)#C->1,,MAAC-00019,CTC_Ru_mono_cpstar,alkyne complex,complete,Cl + C8H6 + C10H15,C10H15 + C8H6 + Cl,"[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl'))]","[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl'))]",True,True,True
+gen_CpRu_Cp,[1*]-[Ru]1(Cl)<-C(c2ccccc2)#C->1,,MAAC-00043,CTC_Ru_mono_cp,alkyne complex,complete,Cl + C8H6 + C5H5,C5H5 + C8H6 + Cl,"[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl'))]","[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl'))]",True,True,True
+gen_CpRh,[7*]-[Rh]1<-C(c2ccccc2)#C->1,[7*] = 0,MAAC-00194,DRhCp_Rh_mono_cf3,alkyne complex,complete,C8H6 + C10F15,C10F15 + C8H6,"[('Rh', ('C', 'C', 'C', 'C', 'C', 'C', 'C'))]","[('Rh', ('C', 'C', 'C', 'C', 'C', 'C', 'C'))]",True,True,True
+gen_CpRh,[7*]-[Rh]1<-C(c2ccccc2)#C->1,[7*] = 1,MAAC-00217,DRhCp_Rh_mono_sif3,alkyne complex,complete,C8H6 + C5F15Si5,C5F15Si5 + C8H6,"[('Rh', ('C', 'C', 'C', 'C', 'C', 'C', 'C'))]","[('Rh', ('C', 'C', 'C', 'C', 'C', 'C', 'C'))]",True,True,True
+gen_CpRh,[7*]-[Rh]1<-C(c2ccccc2)#C->1,[7*] = 2,MAAC-00182,DRhCp_Rh_mono_ccl3,alkyne complex,complete,C8H6 + C10Cl15,C10Cl15 + C8H6,"[('Rh', ('C', 'C', 'C', 'C', 'C', 'C', 'C'))]","[('Rh', ('C', 'C', 'C', 'C', 'C', 'C', 'C'))]",True,True,True
+gen_CpRh,[7*]-[Rh]1<-C(c2ccccc2)#C->1,[7*] = 3,MAAC-00206,DRhCp_Rh_mono_so3h,alkyne complex,complete,C8H6 + C5H5O15S5,C5H5O15S5 + C8H6,"[('Rh', ('C', 'C', 'C', 'C', 'C', 'C', 'C'))]","[('Rh', ('C', 'C', 'C', 'C', 'C', 'C', 'C'))]",True,True,True
+L17_PPh3,c1ccc(P(c2ccccc2)c2ccccc2)cc1,,MAAC-00704,RAG_Ag_mono_pph3_ag,RC,fragment,C18H15P,C8H5 + C7H7N3 + C18H15P,,,True,True,True
+L17_benzamide,CC(C)N(C(=O)c1ccccc1P([10*])[10*])C(C)C,[10*] = c7ccccc7,MAAC-00691,RAG_Ag_mono_pph3_o_n_ag1,RC,fragment,C25H28NOP,C8H5 + C7H7N3 + C25H28NOP,,,True,True,True
+L17_benzamide,CC(C)N(C(=O)c1ccccc1P([10*])[10*])C(C)C,[10*] = C(C)(C)C,MAAC-00682,RAG_Ag_mono_pph_tbu_ag1,RC,fragment,C21H36NOP,C8H5 + C7H7N3 + C21H36NOP,,,True,True,True
+L18_ComX,[Cu]12<-N=C([9*])C([9*])=N->1C([9*])([9*])N->3=C([9*])C([9*])=N->[Cu]3C2#Cc4ccccc4,[9*] = F,MAAC-00877,AOC_Cu_bi_f,acetylide,complete,C5H2F6N4 + C8H5,C5H2F6N4 + C8H5,"[('Cu', ('C', 'N', 'N')), ('Cu', ('C', 'N', 'N'))]","[('Cu', ('C', 'N', 'N')), ('Cu', ('C', 'N', 'N'))]",True,True,True
+L18_ComX,[Cu]12<-N=C([9*])C([9*])=N->1C([9*])([9*])N->3=C([9*])C([9*])=N->[Cu]3C2#Cc4ccccc4,[9*] = Cl,MAAC-00870,AOC_Cu_bi_cl,acetylide,complete,C5H2Cl6N4 + C8H5,C5H2Cl6N4 + C8H5,"[('Cu', ('C', 'N', 'N')), ('Cu', ('C', 'N', 'N'))]","[('Cu', ('C', 'N', 'N')), ('Cu', ('C', 'N', 'N'))]",True,True,True
+L18_ComX,[Cu]12<-N=C([9*])C([9*])=N->1C([9*])([9*])N->3=C([9*])C([9*])=N->[Cu]3C2#Cc4ccccc4,[9*] = Br,MAAC-00884,AOC_Cu_bi_br,acetylide,complete,C5H2Br6N4 + C8H5,C5H2Br6N4 + C8H5,"[('Cu', ('C', 'N', 'N')), ('Cu', ('C', 'N', 'N'))]","[('Cu', ('C', 'N', 'N')), ('Cu', ('C', 'N', 'N'))]",True,True,True
+L18_ComX,[Cu]12<-N=C([9*])C([9*])=N->1C([9*])([9*])N->3=C([9*])C([9*])=N->[Cu]3C2#Cc4ccccc4,[9*] = I,MAAC-00891,AOC_Cu_bi_i,acetylide,complete,C5H2I6N4 + C8H5,C5H2I6N4 + C8H5,"[('Cu', ('C', 'N', 'N')), ('Cu', ('C', 'N', 'N'))]","[('Cu', ('C', 'N', 'N')), ('Cu', ('C', 'N', 'N'))]",True,True,True
+L19_DAB,[10*]N=CC=N[10*],[10*] = C7CCCCC7,MAAC-00506,NJC_Cu_mono_l1_m,RC,fragment,C14H24N2,C14H24N2 + C8H5 + C7H7N3,,,True,True,True
+L19_DAB,[10*]N=CC=N[10*],[10*] = c7ccc(OC)cc7,MAAC-00539,NJC_Cu_mono_l2_m,RC,fragment,C16H16N2O2,C16H16N2O2 + C8H5 + C7H7N3,,,True,True,True
+L19_DAB,[10*]N=CC=N[10*],[10*] = C78CC9CC(CC(C9)C7)C8,MAAC-00560,NJC_Cu_mono_l3_m,RC,fragment,C22H32N2,C22H32N2 + C8H5 + C7H7N3,,,True,True,True
+L19_POEt3,CCOP(OCC)OCC,,MAAC-00597,NJC_Cu_mono_l5_m,RC,fragment,C6H15O3P,C7H7N3 + C8H5 + C6H15O3P,,,True,True,True
+L19_PPh3,c1ccc(P(c2ccccc2)c2ccccc2)cc1,,MAAC-00579,NJC_Cu_mono_l4_m,RC,fragment,C18H15P,C8H5 + C7H7N3 + C18H15P,,,True,True,True
+L20_ADAP,COP1N(C)C=CN1C,,MAAC-00262,JCC_Cu_mono_cu,RC,fragment,C5H11N2OP,C8H5 + C7H7N3 + C5H11N2OP,,,True,True,True
+L21_CpStar,[2*]-[Ru]Cl,[2*] = 2,MAAC-00019,CTC_Ru_mono_cpstar,alkyne complex,fragment,Cl + C10H15,C10H15 + C8H6 + Cl,,,True,True,True
+L21_Cp,[1*]-[Ru]Cl,[1*] = 1,MAAC-00051,CTC_Ru_mono_cp,RC,fragment,Cl + C5H5,C5H5 + C7H7N3 + C8H6 + Cl,,,True,True,True
+L22_complex,P(c1ccccc1)(c1ccccc1)(c1ccccc1)->[Cu]1([9*])<-C([9*])#C->1c1ccccc1,[9*] = Br,MAAC-00772,RHALO_Cu_mono_c_br_br_br,alkyne complex,complete,C18H15P + C8H5Br + Br,C8H5Br + C18H15P + Br,"[('Cu', ('Br', 'C', 'C', 'P'))]","[('Cu', ('Br', 'C', 'C', 'P'))]",True,True,True
+L22_complex,P(c1ccccc1)(c1ccccc1)(c1ccccc1)->[Cu]1([9*])<-C([9*])#C->1c1ccccc1,[9*] = Cl,MAAC-00816,RHALO_Cu_mono_c_cl_cl_cl,alkyne complex,complete,C18H15P + C8H5Cl + Cl,C8H5Cl + C18H15P + Cl,"[('Cu', ('C', 'C', 'Cl', 'P'))]","[('Cu', ('C', 'C', 'Cl', 'P'))]",True,True,True
+L22_complex,P(c1ccccc1)(c1ccccc1)(c1ccccc1)->[Cu]1([9*])<-C([9*])#C->1c1ccccc1,[9*] = I,MAAC-00860,RHALO_Cu_mono_c_i_i_i,alkyne complex,complete,C18H15P + C8H5I + I,C8H5I + C18H15P + I,"[('Cu', ('C', 'C', 'I', 'P'))]","[('Cu', ('C', 'C', 'I', 'P'))]",True,True,True
+L23_NHC,[9*]C([9*])([9*])N1C([9*])=C([9*])N(C([9*])([9*])[9*])[C]1,[9*] = F,MAAC-00136,DNHCX_Cu_mono_f,IC,fragment,C5F8N2,C15H12N3 + C5F8N2,,,True,True,True
+L23_NHC,[9*]C([9*])([9*])N1C([9*])=C([9*])N(C([9*])([9*])[9*])[C]1,[9*] = Cl,MAAC-00110,DNHCX_Cu_mono_cl,IC,fragment,C5Cl8N2,C15H12N3 + C5Cl8N2,,,True,True,True
+L23_NHC,[9*]C([9*])([9*])N1C([9*])=C([9*])N(C([9*])([9*])[9*])[C]1,[9*] = Br,MAAC-00087,DNHCX_Cu_mono_br,acetylide,fragment,C5Br8N2,C8H5 + C5Br8N2,,,True,True,True
+L23_NHC,[9*]C([9*])([9*])N1C([9*])=C([9*])N(C([9*])([9*])[9*])[C]1,[9*] = I,MAAC-00158,DNHCX_Cu_mono_i,acetylide,fragment,C5I8N2,C8H5 + C5I8N2,,,True,True,True
+L24_ring,[7*]-[Rh],[7*] = 0,MAAC-00197,DRhCp_Rh_mono_cf3,RC,fragment,C10F15,C10F15 + C7H7N3 + C8H6,,,True,True,True
+L24_ring,[7*]-[Rh],[7*] = 1,MAAC-00223,DRhCp_Rh_mono_sif3,RC,fragment,C5F15Si5,C5F15Si5 + C7H7N3 + C8H6,,,True,True,True
+L24_ring,[7*]-[Rh],[7*] = 2,MAAC-00185,DRhCp_Rh_mono_ccl3,RC,fragment,C10Cl15,C10Cl15 + C7H7N3 + C8H6,,,True,True,True
+L24_ring,[7*]-[Rh],[7*] = 3,MAAC-00211,DRhCp_Rh_mono_so3h,RC,fragment,C5H5O15S5,C5H5O15S5 + C7H7N3 + C8H6,,,True,True,True
+L25_IMe,CN1C=CN(C)[C]1,,MAAC-00330,MCNHC_Cu_mono_cu1,RC,fragment,C5H8N2,C7H7N3 + C8H5 + C5H8N2,,,True,True,True
+L26_NHC,CCN(CC)Cc1cccc(CN2C=CN(C(C)(C)C)[C]2)n1,,MAAC-00361,MCPNHC_Ag_bi_ag,other,fragment,C18H28N4,Br + C18H28N4 + Br,,,True,True,True
+L27_E,CN1C=CN(C)C1=[11*]1N(C)C=CN1C,[11*] = [Si],MAAC-00010,CES_Cu_mono_asi_cis,alkyne complex,fragment,C9H16N4Si,C8H6 + Br + C9H16N4Si,,,True,True,True
+L27_E,CN1C=CN(C)C1=[11*]1N(C)C=CN1C,[11*] = [Ge],MAAC-00001,CES_Cu_mono_age_cis,alkyne complex,fragment,C9H16GeN4,C8H6 + Br + C9H16GeN4,,,True,True,True
+L28_bipy,c1ccc(-c2ccccn2)nc1,,MAAC-00730,RAGCU_Cu_mono_cu1_n,RC,fragment,C10H8N2,C8H5 + C7H7N3 + C10H8N2,,,True,True,True
+L28_phen,c1cnc2c(c1)ccc1cccnc12,,MAAC-00720,RAGCU_Ag_mono_ag1_nc,acetylide,fragment,C12H8N2,C8H5 + C12H8N2,,,True,True,True
+L28_BOX,CC(C)(C1=NC(C(C)(C)C)CO1)C1=NC(C(C)(C)C)CO1,,MAAC-00722,RAGCU_Ag_mono_ag1o,acetylide,fragment,C17H30N2O2,C8H5 + C17H30N2O2,,,True,True,True
+Cu_AC,CN1C=CN(C)[C]1->[Cu]C#Cc1ccccc1,,MAAC-00327,MCNHC_Cu_mono_cu1,acetylide,complete,C5H8N2 + C8H5,C8H5 + C5H8N2,"[('Cu', ('C', 'C'))]","[('Cu', ('C', 'C'))]",True,True,True
+Cu_RC,CN1C=CN(C)[C]1->[Cu:5](C#Cc1ccccc1)<-[N:6](Cc1ccccc1)=[N+]=[N-],,MAAC-00330,MCNHC_Cu_mono_cu1,RC,complete,C5H8N2 + C8H5 + C7H7N3,C7H7N3 + C8H5 + C5H8N2,"[('Cu', ('C', 'C'))]","[('Cu', ('C', 'C'))]",True,True,True
+Cu_IC,CN1C=CN(C)[C]1->[Cu]2[C](=C(c3ccccc3)N=NN2Cc2ccccc2),,MAAC-00328,MCNHC_Cu_mono_cu1,IC,complete,C5H8N2 + C15H12N3,C15H12N3 + C5H8N2,"[('Cu', ('C', 'C', 'N'))]","[('Cu', ('C', 'C', 'N'))]",True,True,True
+Cu_P,CN1C=CN(C)[C]1->[Cu]c1c(-c2ccccc2)nnn1Cc1ccccc1,,MAAC-00329,MCNHC_Cu_mono_cu1,product,complete,C5H8N2 + C15H12N3,C15H12N3 + C5H8N2,"[('Cu', ('C', 'C'))]","[('Cu', ('C', 'C'))]",True,True,True
+Ru_AC,[2*]-[Ru]1(Cl)<-C(c2ccccc2)#C->1,,MAAC-00031,CTC_Ru_mono_cpstar,alkyne complex,complete,Cl + C8H6 + C10H15,C10H15 + C8H6 + Cl,"[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl'))]","[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl'))]",True,True,True
+Ru_RC,[2*]-[Ru]1(Cl)(<-N(Cc2ccccc2)=[N+]=[N-])<-C(c2ccccc2)#C->1,,MAAC-00037,CTC_Ru_mono_cpstar,RC,complete,Cl + C7H7N3 + C8H6 + C10H15,C10H15 + C7H7N3 + C8H6 + Cl,"[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl', 'N'))]","[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl', 'N'))]",True,True,True
+Ru_IC,[2*]-[Ru:1]1(Cl)C(c2ccccc2)=[CH:2]N=NN1Cc1ccccc1,,MAAC-00033,CTC_Ru_mono_cpstar,IC,complete,Cl + C15H13N3 + C10H15,C10H15 + C15H13N3 + Cl,"[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl', 'N'))]","[('Ru', ('C', 'C', 'C', 'C', 'C', 'C', 'C', 'Cl', 'N'))]",True,True,True
+Ru_P,[2*]-[Ru](Cl)<-n1cc(-c2ccccc2)n(Cc2ccccc2)n1,,MAAC-00035,CTC_Ru_mono_cpstar,product,complete,Cl + C15H13N3 + C10H15,C10H15 + C15H13N3 + Cl,"[('Ru', ('C', 'C', 'C', 'C', 'C', 'Cl', 'N'))]","[('Ru', ('C', 'C', 'C', 'C', 'C', 'Cl', 'N'))]",True,True,True

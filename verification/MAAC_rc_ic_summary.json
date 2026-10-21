@@ -1,0 +1,121 @@
+{
+ "rc": {
+  "Cu": {
+   "n": 52,
+   "n_N1": 42,
+   "n_N3": 0,
+   "n_none": 10,
+   "d_bound_min": 2.05,
+   "d_bound_max": 2.29,
+   "d_unbound_min": 2.33,
+   "d_unbound_max": 2.79
+  },
+  "Ag": {
+   "n": 14,
+   "n_N1": 1,
+   "n_N3": 0,
+   "n_none": 13,
+   "d_bound_min": 2.48,
+   "d_bound_max": 2.48,
+   "d_unbound_min": 2.55,
+   "d_unbound_max": 3.36
+  },
+  "Au": {
+   "n": 4,
+   "n_N1": 0,
+   "n_N3": 0,
+   "n_none": 4,
+   "d_bound_min": null,
+   "d_bound_max": null,
+   "d_unbound_min": 3.28,
+   "d_unbound_max": 3.54
+  },
+  "Ru": {
+   "n": 8,
+   "n_N1": 8,
+   "n_N3": 0,
+   "n_none": 0,
+   "d_bound_min": 2.16,
+   "d_bound_max": 2.21,
+   "d_unbound_min": null,
+   "d_unbound_max": null
+  },
+  "Rh": {
+   "n": 8,
+   "n_N1": 8,
+   "n_N3": 0,
+   "n_none": 0,
+   "d_bound_min": 2.07,
+   "d_bound_max": 2.12,
+   "d_unbound_min": null,
+   "d_unbound_max": null
+  }
+ },
+ "ic": {
+  "Rh 1,4": {
+   "n": 4,
+   "d_M_Ca": [
+    1.9,
+    1.92
+   ],
+   "d_M_Cb": [
+    2.94,
+    2.97
+   ],
+   "d_M_N1": [
+    1.94,
+    1.95
+   ],
+   "eta2": 0
+  },
+  "Rh 1,5": {
+   "n": 4,
+   "d_M_Ca": [
+    1.89,
+    1.92
+   ],
+   "d_M_Cb": [
+    2.07,
+    2.11
+   ],
+   "d_M_N1": [
+    1.98,
+    2.0
+   ],
+   "eta2": 4
+  },
+  "Ru 1,4": {
+   "n": 4,
+   "d_M_Ca": [
+    1.86,
+    1.88
+   ],
+   "d_M_Cb": [
+    2.19,
+    2.21
+   ],
+   "d_M_N1": [
+    2.01,
+    2.04
+   ],
+   "eta2": 4
+  },
+  "Ru 1,5": {
+   "n": 4,
+   "d_M_Ca": [
+    1.91,
+    1.92
+   ],
+   "d_M_Cb": [
+    2.09,
+    2.12
+   ],
+   "d_M_N1": [
+    2.03,
+    2.05
+   ],
+   "eta2": 4
+  }
+ },
+ "scale": 1.15
+}

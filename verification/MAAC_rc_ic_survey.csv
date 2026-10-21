@@ -1,0 +1,236 @@
+structure_id,paper_code,system_id,role,metal,nuclearity,pathway,d_M_Ca,d_M_Cb,d_M_N1,d_M_N3,ring_bonds,cutoff,azide_binding
+MAAC-00021,CTC,CTC_Ru_mono_cpstar,IC,Ru,mono,"1,4",1.86,2.21,2.04,2.97,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00022,CTC,CTC_Ru_mono_cpstar,IC,Ru,mono,"1,4",1.86,2.21,2.04,2.97,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00025,CTC,CTC_Ru_mono_cpstar,RC,Ru,mono,"1,4",,,2.17,3.75,,2.5,N1
+MAAC-00026,CTC,CTC_Ru_mono_cpstar,RC,Ru,mono,"1,4",,,2.17,3.75,,2.5,N1
+MAAC-00033,CTC,CTC_Ru_mono_cpstar,IC,Ru,mono,"1,5",1.91,2.09,2.05,2.96,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00034,CTC,CTC_Ru_mono_cpstar,IC,Ru,mono,"1,5",1.91,2.09,2.05,2.96,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00037,CTC,CTC_Ru_mono_cpstar,RC,Ru,mono,"1,5",,,2.16,3.74,,2.5,N1
+MAAC-00038,CTC,CTC_Ru_mono_cpstar,RC,Ru,mono,"1,5",,,2.16,3.74,,2.5,N1
+MAAC-00046,CTC,CTC_Ru_mono_cp,IC,Ru,mono,"1,4",1.88,2.19,2.01,2.96,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00047,CTC,CTC_Ru_mono_cp,IC,Ru,mono,"1,4",1.88,2.19,2.01,2.96,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00051,CTC,CTC_Ru_mono_cp,RC,Ru,mono,"1,4",,,2.21,3.82,,2.5,N1
+MAAC-00052,CTC,CTC_Ru_mono_cp,RC,Ru,mono,"1,4",,,2.21,3.82,,2.5,N1
+MAAC-00060,CTC,CTC_Ru_mono_cp,IC,Ru,mono,"1,5",1.92,2.12,2.03,2.97,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00061,CTC,CTC_Ru_mono_cp,IC,Ru,mono,"1,5",1.92,2.12,2.03,2.97,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00064,CTC,CTC_Ru_mono_cp,RC,Ru,mono,"1,5",,,2.21,3.78,,2.5,N1
+MAAC-00065,CTC,CTC_Ru_mono_cp,RC,Ru,mono,"1,5",,,2.21,3.78,,2.5,N1
+MAAC-00088,DNHCX,DNHCX_Cu_mono_br,IC,Cu,mono,,1.82,2.93,1.95,3.36,"M-Ca, M-N1",,
+MAAC-00090,DNHCX,DNHCX_Cu_mono_br,RC,Cu,mono,,,,2.54,3.88,,2.33,not coordinated
+MAAC-00094,DNHCX,DNHCX_Cu_bi_br,IC,Cu,bi,,2.9,1.84,1.92,3.3,see distances,,
+MAAC-00094,DNHCX,DNHCX_Cu_bi_br,IC,Cu,bi,,3.05,1.91,4.06,4.26,see distances,,
+MAAC-00096,DNHCX,DNHCX_Cu_bi_br,RC,Cu,bi,,,,2.09,3.73,,2.33,N1
+MAAC-00096,DNHCX,DNHCX_Cu_bi_br,RC,Cu,bi,,,,4.48,5.38,,2.33,not coordinated
+MAAC-00110,DNHCX,DNHCX_Cu_mono_cl,IC,Cu,mono,,1.8,2.92,1.96,3.35,"M-Ca, M-N1",,
+MAAC-00112,DNHCX,DNHCX_Cu_mono_cl,RC,Cu,mono,,,,2.63,3.91,,2.33,not coordinated
+MAAC-00117,DNHCX,DNHCX_Cu_bi_cl,IC,Cu,bi,,2.89,1.83,1.9,3.29,see distances,,
+MAAC-00117,DNHCX,DNHCX_Cu_bi_cl,IC,Cu,bi,,3.05,1.89,4.03,4.25,see distances,,
+MAAC-00119,DNHCX,DNHCX_Cu_bi_cl,RC,Cu,bi,,,,2.05,3.74,,2.33,N1
+MAAC-00119,DNHCX,DNHCX_Cu_bi_cl,RC,Cu,bi,,,,4.44,5.41,,2.33,not coordinated
+MAAC-00126,DNHCX,DNHCX_Cu_bi_cl_cl,IC,Cu,bi,,2.89,1.83,1.9,3.29,see distances,,
+MAAC-00126,DNHCX,DNHCX_Cu_bi_cl_cl,IC,Cu,bi,,3.05,1.89,4.03,4.25,see distances,,
+MAAC-00136,DNHCX,DNHCX_Cu_mono_f,IC,Cu,mono,,1.79,2.91,1.95,3.32,"M-Ca, M-N1",,
+MAAC-00138,DNHCX,DNHCX_Cu_mono_f,RC,Cu,mono,,,,2.75,3.94,,2.33,not coordinated
+MAAC-00142,DNHCX,DNHCX_Cu_bi_f,IC,Cu,bi,,2.9,1.83,1.9,3.26,see distances,,
+MAAC-00142,DNHCX,DNHCX_Cu_bi_f,IC,Cu,bi,,3.07,1.88,4.03,4.26,see distances,,
+MAAC-00144,DNHCX,DNHCX_Cu_bi_f,RC,Cu,bi,,,,2.07,3.72,,2.33,N1
+MAAC-00144,DNHCX,DNHCX_Cu_bi_f,RC,Cu,bi,,,,4.47,5.37,,2.33,not coordinated
+MAAC-00159,DNHCX,DNHCX_Cu_mono_i,IC,Cu,mono,,1.84,2.96,1.98,3.41,"M-Ca, M-N1",,
+MAAC-00161,DNHCX,DNHCX_Cu_mono_i,RC,Cu,mono,,,,2.38,3.8,,2.33,not coordinated
+MAAC-00165,DNHCX,DNHCX_Cu_bi_i,IC,Cu,bi,,2.9,1.85,1.95,3.32,see distances,,
+MAAC-00165,DNHCX,DNHCX_Cu_bi_i,IC,Cu,bi,,3.07,1.93,4.16,4.29,see distances,,
+MAAC-00167,DNHCX,DNHCX_Cu_bi_i,RC,Cu,bi,,,,2.2,3.7,,2.33,N1
+MAAC-00167,DNHCX,DNHCX_Cu_bi_i,RC,Cu,bi,,,,4.54,5.22,,2.33,not coordinated
+MAAC-00183,DRhCp,DRhCp_Rh_mono_ccl3,IC,Rh,mono,"1,4",1.92,2.94,1.95,3.32,"M-Ca, M-N1",,
+MAAC-00185,DRhCp,DRhCp_Rh_mono_ccl3,RC,Rh,mono,"1,4",,,2.11,3.88,,2.45,N1
+MAAC-00189,DRhCp,DRhCp_Rh_mono_ccl3,IC,Rh,mono,"1,5",1.89,2.08,2.0,2.91,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00191,DRhCp,DRhCp_Rh_mono_ccl3,RC,Rh,mono,"1,5",,,2.09,3.8,,2.45,N1
+MAAC-00195,DRhCp,DRhCp_Rh_mono_cf3,IC,Rh,mono,"1,4",1.91,2.97,1.94,3.36,"M-Ca, M-N1",,
+MAAC-00197,DRhCp,DRhCp_Rh_mono_cf3,RC,Rh,mono,"1,4",,,2.07,3.75,,2.45,N1
+MAAC-00201,DRhCp,DRhCp_Rh_mono_cf3,IC,Rh,mono,"1,5",1.91,2.08,2.0,2.92,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00203,DRhCp,DRhCp_Rh_mono_cf3,RC,Rh,mono,"1,5",,,2.07,3.76,,2.45,N1
+MAAC-00207,DRhCp,DRhCp_Rh_mono_so3h,IC,Rh,mono,"1,4",1.9,2.96,1.94,3.35,"M-Ca, M-N1",,
+MAAC-00208,DRhCp,DRhCp_Rh_mono_so3h,IC,Rh,mono,"1,5",1.92,2.07,1.98,2.9,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00211,DRhCp,DRhCp_Rh_mono_so3h,RC,Rh,mono,"1,4",,,2.12,3.82,,2.45,N1
+MAAC-00212,DRhCp,DRhCp_Rh_mono_so3h,RC,Rh,mono,"1,5",,,2.1,3.72,,2.45,N1
+MAAC-00218,DRhCp,DRhCp_Rh_mono_sif3,IC,Rh,mono,"1,4",1.91,2.96,1.94,3.35,"M-Ca, M-N1",,
+MAAC-00219,DRhCp,DRhCp_Rh_mono_sif3,IC,Rh,mono,"1,5",1.91,2.11,1.99,2.93,"M-Ca, M-N1, M-Cb (eta2-vinyl)",,
+MAAC-00222,DRhCp,DRhCp_Rh_mono_sif3,RC,Rh,mono,"1,4",,,2.07,3.73,,2.45,N1
+MAAC-00223,DRhCp,DRhCp_Rh_mono_sif3,RC,Rh,mono,"1,5",,,2.08,3.75,,2.45,N1
+MAAC-00232,JCC,JCC_Ag_mono_ag,IC,Ag,mono,,3.07,1.98,2.21,3.5,see distances,,
+MAAC-00234,JCC,JCC_Ag_mono_ag,RC,Ag,mono,,,,3.34,4.32,,2.48,not coordinated
+MAAC-00238,JCC,JCC_Ag_bi_ag,IC,Ag,bi,,3.06,2.0,2.1,3.44,see distances,,
+MAAC-00238,JCC,JCC_Ag_bi_ag,IC,Ag,bi,,3.24,2.06,4.37,4.47,see distances,,
+MAAC-00240,JCC,JCC_Ag_bi_ag,RC,Ag,bi,,,,2.48,4.0,,2.48,N1
+MAAC-00240,JCC,JCC_Ag_bi_ag,RC,Ag,bi,,,,4.95,5.64,,2.48,not coordinated
+MAAC-00246,JCC,JCC_Au_mono_au,IC,Au,mono,,3.04,1.95,2.21,3.44,see distances,,
+MAAC-00248,JCC,JCC_Au_mono_au,RC,Au,mono,,,,3.54,4.39,,2.38,not coordinated
+MAAC-00252,JCC,JCC_Au_bi_au,IC,Au,bi,,3.03,1.99,2.07,3.37,see distances,,
+MAAC-00252,JCC,JCC_Au_bi_au,IC,Au,bi,,3.23,2.04,4.4,4.44,see distances,,
+MAAC-00254,JCC,JCC_Au_bi_au,RC,Au,bi,,,,3.28,4.22,,2.38,not coordinated
+MAAC-00254,JCC,JCC_Au_bi_au,RC,Au,bi,,,,5.4,5.45,,2.38,not coordinated
+MAAC-00260,JCC,JCC_Cu_mono_cu,IC,Cu,mono,,2.91,1.8,1.94,3.34,see distances,,
+MAAC-00262,JCC,JCC_Cu_mono_cu,RC,Cu,mono,,,,2.33,3.8,,2.33,not coordinated
+MAAC-00266,JCC,JCC_Cu_bi_cu,IC,Cu,bi,,2.9,1.83,1.89,3.27,see distances,,
+MAAC-00266,JCC,JCC_Cu_bi_cu,IC,Cu,bi,,3.1,1.89,4.01,4.28,see distances,,
+MAAC-00268,JCC,JCC_Cu_bi_cu,RC,Cu,bi,,,,2.08,3.72,,2.33,N1
+MAAC-00268,JCC,JCC_Cu_bi_cu,RC,Cu,bi,,,,4.37,5.26,,2.33,not coordinated
+MAAC-00328,MCNHC,MCNHC_Cu_mono_cu1,IC,Cu,mono,,1.78,2.9,1.95,3.33,"M-Ca, M-N1",,
+MAAC-00330,MCNHC,MCNHC_Cu_mono_cu1,RC,Cu,mono,,,,2.79,4.04,,2.33,not coordinated
+MAAC-00334,MCNHC,MCNHC_Cu_bi_cu2,IC,Cu,bi,,2.9,1.82,1.9,3.29,see distances,,
+MAAC-00334,MCNHC,MCNHC_Cu_bi_cu2,IC,Cu,bi,,3.05,1.88,4.02,4.24,see distances,,
+MAAC-00336,MCNHC,MCNHC_Cu_bi_cu2,RC,Cu,bi,,,,2.1,3.71,,2.33,N1
+MAAC-00336,MCNHC,MCNHC_Cu_bi_cu2,RC,Cu,bi,,,,4.37,5.18,,2.33,not coordinated
+MAAC-00341,MCNHC,MCNHC_Ag_mono_ag1,RC,Ag,mono,,,,3.36,4.42,,2.48,not coordinated
+MAAC-00344,MCNHC,MCNHC_Ag_bi_ag2,IC,Ag,bi,,3.04,1.97,2.12,3.46,see distances,,
+MAAC-00344,MCNHC,MCNHC_Ag_bi_ag2,IC,Ag,bi,,3.13,2.03,4.44,4.42,see distances,,
+MAAC-00346,MCNHC,MCNHC_Ag_bi_ag2,RC,Ag,bi,,,,2.9,4.32,,2.48,not coordinated
+MAAC-00346,MCNHC,MCNHC_Ag_bi_ag2,RC,Ag,bi,,,,4.79,4.89,,2.48,not coordinated
+MAAC-00351,MCNHC,MCNHC_Au_mono_au1,RC,Au,mono,,,,3.49,4.49,,2.38,not coordinated
+MAAC-00354,MCNHC,MCNHC_Au_bi_au2,IC,Au,bi,,3.02,1.96,2.08,3.38,see distances,,
+MAAC-00354,MCNHC,MCNHC_Au_bi_au2,IC,Au,bi,,3.14,2.02,4.48,4.4,see distances,,
+MAAC-00356,MCNHC,MCNHC_Au_bi_au2,RC,Au,bi,,,,3.47,4.28,,2.38,not coordinated
+MAAC-00356,MCNHC,MCNHC_Au_bi_au2,RC,Au,bi,,,,4.0,3.47,,2.38,not coordinated
+MAAC-00391,NJC,NJC_Cu_bi_l1_b,IC,Cu,bi,,1.84,3.03,3.51,4.04,see distances,,
+MAAC-00391,NJC,NJC_Cu_bi_l1_b,IC,Cu,bi,,1.87,2.88,2.02,3.32,"M-Ca, M-N1",,
+MAAC-00394,NJC,NJC_Cu_bi_l1_b,RC,Cu,bi,,,,3.89,4.73,,2.33,not coordinated
+MAAC-00394,NJC,NJC_Cu_bi_l1_b,RC,Cu,bi,,,,2.11,3.69,,2.33,N1
+MAAC-00398,NJC,NJC_Cu_bi_l1_b,IC,Cu,bi,,1.84,3.03,3.51,4.04,see distances,,
+MAAC-00398,NJC,NJC_Cu_bi_l1_b,IC,Cu,bi,,1.87,2.88,2.02,3.32,"M-Ca, M-N1",,
+MAAC-00400,NJC,NJC_Cu_bi_l1_b,RC,Cu,bi,,,,3.89,4.73,,2.33,not coordinated
+MAAC-00400,NJC,NJC_Cu_bi_l1_b,RC,Cu,bi,,,,2.11,3.69,,2.33,N1
+MAAC-00404,NJC,NJC_Cu_bi_l1_b_h2o,IC,Cu,bi,,1.84,3.03,3.51,4.04,see distances,,
+MAAC-00404,NJC,NJC_Cu_bi_l1_b_h2o,IC,Cu,bi,,1.87,2.88,2.02,3.32,"M-Ca, M-N1",,
+MAAC-00406,NJC,NJC_Cu_bi_l1_b_h2o,RC,Cu,bi,,,,3.89,4.73,,2.33,not coordinated
+MAAC-00406,NJC,NJC_Cu_bi_l1_b_h2o,RC,Cu,bi,,,,2.11,3.69,,2.33,N1
+MAAC-00410,NJC,NJC_Cu_bi_l1_b_tpz,IC,Cu,bi,,1.84,3.03,3.51,4.04,see distances,,
+MAAC-00410,NJC,NJC_Cu_bi_l1_b_tpz,IC,Cu,bi,,1.87,2.88,2.02,3.32,"M-Ca, M-N1",,
+MAAC-00411,NJC,NJC_Cu_bi_l1_b_tpz,RC,Cu,bi,,,,3.89,4.73,,2.33,not coordinated
+MAAC-00411,NJC,NJC_Cu_bi_l1_b_tpz,RC,Cu,bi,,,,2.11,3.69,,2.33,N1
+MAAC-00414,NJC,NJC_Cu_bi_l2_b,IC,Cu,bi,,1.86,2.91,1.92,3.31,"M-Ca, M-N1",,
+MAAC-00414,NJC,NJC_Cu_bi_l2_b,IC,Cu,bi,,1.86,3.07,3.9,4.25,see distances,,
+MAAC-00416,NJC,NJC_Cu_bi_l2_b,RC,Cu,bi,,,,3.83,5.45,,2.33,not coordinated
+MAAC-00416,NJC,NJC_Cu_bi_l2_b,RC,Cu,bi,,,,2.12,3.72,,2.33,N1
+MAAC-00420,NJC,NJC_Cu_bi_l2_b,IC,Cu,bi,,1.86,2.91,1.92,3.31,"M-Ca, M-N1",,
+MAAC-00420,NJC,NJC_Cu_bi_l2_b,IC,Cu,bi,,1.86,3.07,3.9,4.25,see distances,,
+MAAC-00422,NJC,NJC_Cu_bi_l2_b,RC,Cu,bi,,,,3.83,5.45,,2.33,not coordinated
+MAAC-00422,NJC,NJC_Cu_bi_l2_b,RC,Cu,bi,,,,2.12,3.72,,2.33,N1
+MAAC-00426,NJC,NJC_Cu_bi_l2_b_h2o,IC,Cu,bi,,1.86,2.91,1.92,3.31,"M-Ca, M-N1",,
+MAAC-00426,NJC,NJC_Cu_bi_l2_b_h2o,IC,Cu,bi,,1.86,3.07,3.9,4.25,see distances,,
+MAAC-00428,NJC,NJC_Cu_bi_l2_b_h2o,RC,Cu,bi,,,,3.83,5.45,,2.33,not coordinated
+MAAC-00428,NJC,NJC_Cu_bi_l2_b_h2o,RC,Cu,bi,,,,2.12,3.72,,2.33,N1
+MAAC-00432,NJC,NJC_Cu_bi_l3_b,IC,Cu,bi,,1.87,3.07,3.92,4.25,see distances,,
+MAAC-00432,NJC,NJC_Cu_bi_l3_b,IC,Cu,bi,,1.85,2.89,1.93,3.29,"M-Ca, M-N1",,
+MAAC-00434,NJC,NJC_Cu_bi_l3_b,RC,Cu,bi,,,,4.35,5.27,,2.33,not coordinated
+MAAC-00434,NJC,NJC_Cu_bi_l3_b,RC,Cu,bi,,,,2.14,3.66,,2.33,N1
+MAAC-00439,NJC,NJC_Cu_bi_l3_b,IC,Cu,bi,,1.87,3.07,3.92,4.25,see distances,,
+MAAC-00439,NJC,NJC_Cu_bi_l3_b,IC,Cu,bi,,1.85,2.89,1.93,3.29,"M-Ca, M-N1",,
+MAAC-00441,NJC,NJC_Cu_bi_l3_b,RC,Cu,bi,,,,4.35,5.27,,2.33,not coordinated
+MAAC-00441,NJC,NJC_Cu_bi_l3_b,RC,Cu,bi,,,,2.14,3.66,,2.33,N1
+MAAC-00445,NJC,NJC_Cu_bi_l3_b_h2o,IC,Cu,bi,,1.87,3.07,3.92,4.25,see distances,,
+MAAC-00445,NJC,NJC_Cu_bi_l3_b_h2o,IC,Cu,bi,,1.85,2.89,1.93,3.29,"M-Ca, M-N1",,
+MAAC-00447,NJC,NJC_Cu_bi_l3_b_h2o,RC,Cu,bi,,,,4.35,5.27,,2.33,not coordinated
+MAAC-00447,NJC,NJC_Cu_bi_l3_b_h2o,RC,Cu,bi,,,,2.14,3.66,,2.33,N1
+MAAC-00451,NJC,NJC_Cu_bi_l4_b,IC,Cu,bi,,2.5,1.92,2.9,3.22,see distances,,
+MAAC-00451,NJC,NJC_Cu_bi_l4_b,IC,Cu,bi,,2.95,1.82,1.97,3.38,see distances,,
+MAAC-00453,NJC,NJC_Cu_bi_l4_b,RC,Cu,bi,,,,3.4,3.38,,2.33,not coordinated
+MAAC-00453,NJC,NJC_Cu_bi_l4_b,RC,Cu,bi,,,,2.19,3.72,,2.33,N1
+MAAC-00458,NJC,NJC_Cu_bi_l4_b_h2o,IC,Cu,bi,,2.5,1.92,2.9,3.22,see distances,,
+MAAC-00458,NJC,NJC_Cu_bi_l4_b_h2o,IC,Cu,bi,,2.95,1.82,1.97,3.38,see distances,,
+MAAC-00460,NJC,NJC_Cu_bi_l4_b_h2o,RC,Cu,bi,,,,3.4,3.38,,2.33,not coordinated
+MAAC-00460,NJC,NJC_Cu_bi_l4_b_h2o,RC,Cu,bi,,,,2.19,3.72,,2.33,N1
+MAAC-00464,NJC,NJC_Cu_bi_l4_b_l4,IC,Cu,bi,,2.5,1.92,2.9,3.22,see distances,,
+MAAC-00464,NJC,NJC_Cu_bi_l4_b_l4,IC,Cu,bi,,2.95,1.82,1.97,3.38,see distances,,
+MAAC-00466,NJC,NJC_Cu_bi_l4_b_l4,RC,Cu,bi,,,,3.4,3.38,,2.33,not coordinated
+MAAC-00466,NJC,NJC_Cu_bi_l4_b_l4,RC,Cu,bi,,,,2.19,3.72,,2.33,N1
+MAAC-00470,NJC,NJC_Cu_bi_l5_b,IC,Cu,bi,,1.85,2.91,1.98,3.31,"M-Ca, M-N1",,
+MAAC-00470,NJC,NJC_Cu_bi_l5_b,IC,Cu,bi,,1.9,2.95,3.29,3.76,see distances,,
+MAAC-00472,NJC,NJC_Cu_bi_l5_b,RC,Cu,bi,,,,2.13,3.63,,2.33,N1
+MAAC-00472,NJC,NJC_Cu_bi_l5_b,RC,Cu,bi,,,,3.78,3.88,,2.33,not coordinated
+MAAC-00476,NJC,NJC_Cu_bi_l5_b_h2o,IC,Cu,bi,,1.85,2.91,1.98,3.31,"M-Ca, M-N1",,
+MAAC-00476,NJC,NJC_Cu_bi_l5_b_h2o,IC,Cu,bi,,1.9,2.95,3.29,3.76,see distances,,
+MAAC-00478,NJC,NJC_Cu_bi_l5_b_h2o,RC,Cu,bi,,,,2.13,3.63,,2.33,N1
+MAAC-00478,NJC,NJC_Cu_bi_l5_b_h2o,RC,Cu,bi,,,,3.78,3.88,,2.33,not coordinated
+MAAC-00482,NJC,NJC_Cu_bi_l5_b_l5,IC,Cu,bi,,1.85,2.91,1.98,3.31,"M-Ca, M-N1",,
+MAAC-00482,NJC,NJC_Cu_bi_l5_b_l5,IC,Cu,bi,,1.9,2.95,3.29,3.76,see distances,,
+MAAC-00484,NJC,NJC_Cu_bi_l5_b_l5,RC,Cu,bi,,,,2.13,3.63,,2.33,N1
+MAAC-00484,NJC,NJC_Cu_bi_l5_b_l5,RC,Cu,bi,,,,3.78,3.88,,2.33,not coordinated
+MAAC-00504,NJC,NJC_Cu_mono_l1_m,IC,Cu,mono,,1.79,2.9,1.95,3.33,"M-Ca, M-N1",,
+MAAC-00506,NJC,NJC_Cu_mono_l1_m,RC,Cu,mono,,,,2.37,3.72,,2.33,not coordinated
+MAAC-00510,NJC,NJC_Cu_mono_l1_m_h2o,IC,Cu,mono,,1.79,2.9,1.95,3.33,"M-Ca, M-N1",,
+MAAC-00512,NJC,NJC_Cu_mono_l1_m_h2o,RC,Cu,mono,,,,2.37,3.72,,2.33,not coordinated
+MAAC-00524,NJC,NJC_Cu_mono_l1_m_cu,IC,Cu,mono,,1.79,2.9,1.95,3.33,"M-Ca, M-N1",,
+MAAC-00526,NJC,NJC_Cu_mono_l1_m_cu,RC,Cu,mono,,,,2.37,3.72,,2.33,not coordinated
+MAAC-00530,NJC,NJC_Cu_mono_l1_m_tvp,IC,Cu,mono,,1.79,2.9,1.95,3.33,"M-Ca, M-N1",,
+MAAC-00532,NJC,NJC_Cu_mono_l1_m_tvp,RC,Cu,mono,,,,2.37,3.72,,2.33,not coordinated
+MAAC-00538,NJC,NJC_Cu_mono_l2_m,IC,Cu,mono,,1.79,2.9,1.95,3.34,"M-Ca, M-N1",,
+MAAC-00539,NJC,NJC_Cu_mono_l2_m,RC,Cu,mono,,,,2.15,3.7,,2.33,N1
+MAAC-00540,NJC,NJC_Cu_mono_l2_m,RC,Cu,mono,,,,2.15,3.69,,2.33,N1
+MAAC-00545,NJC,NJC_Cu_mono_l2_m_h2o,IC,Cu,mono,,1.79,2.9,1.95,3.34,"M-Ca, M-N1",,
+MAAC-00547,NJC,NJC_Cu_mono_l2_m_h2o,RC,Cu,mono,,,,2.15,3.7,,2.33,N1
+MAAC-00552,NJC,NJC_Cu_mono_l2_m,IC,Cu,mono,,1.79,2.9,1.95,3.34,"M-Ca, M-N1",,
+MAAC-00554,NJC,NJC_Cu_mono_l2_m,RC,Cu,mono,,,,2.15,3.7,,2.33,N1
+MAAC-00558,NJC,NJC_Cu_mono_l3_m,IC,Cu,mono,,1.79,2.9,1.95,3.33,"M-Ca, M-N1",,
+MAAC-00560,NJC,NJC_Cu_mono_l3_m,RC,Cu,mono,"1,5",,,2.24,3.8,,2.33,N1
+MAAC-00564,NJC,NJC_Cu_mono_l3_m_h2o,IC,Cu,mono,,1.79,2.9,1.95,3.33,"M-Ca, M-N1",,
+MAAC-00566,NJC,NJC_Cu_mono_l3_m_h2o,RC,Cu,mono,,,,2.24,3.8,,2.33,N1
+MAAC-00571,NJC,NJC_Cu_mono_l3_m,IC,Cu,mono,,1.79,2.9,1.95,3.33,"M-Ca, M-N1",,
+MAAC-00573,NJC,NJC_Cu_mono_l3_m,RC,Cu,mono,,,,2.24,3.8,,2.33,N1
+MAAC-00577,NJC,NJC_Cu_mono_l4_m,IC,Cu,mono,,2.91,1.8,1.93,3.32,see distances,,
+MAAC-00579,NJC,NJC_Cu_mono_l4_m,RC,Cu,mono,,,,2.29,3.78,,2.33,N1
+MAAC-00583,NJC,NJC_Cu_mono_l4_m_h2o,IC,Cu,mono,,2.91,1.8,1.93,3.32,see distances,,
+MAAC-00585,NJC,NJC_Cu_mono_l4_m_h2o,RC,Cu,mono,,,,2.29,3.78,,2.33,N1
+MAAC-00589,NJC,NJC_Cu_mono_l4_m,IC,Cu,mono,,2.91,1.8,1.93,3.32,see distances,,
+MAAC-00591,NJC,NJC_Cu_mono_l4_m,RC,Cu,mono,,,,2.29,3.78,,2.33,N1
+MAAC-00595,NJC,NJC_Cu_mono_l5_m,IC,Cu,mono,,1.8,2.91,1.95,3.3,"M-Ca, M-N1",,
+MAAC-00597,NJC,NJC_Cu_mono_l5_m,RC,Cu,mono,,,,2.1,3.61,,2.33,N1
+MAAC-00601,NJC,NJC_Cu_mono_l5_m_h2o,IC,Cu,mono,,1.8,2.91,1.95,3.3,"M-Ca, M-N1",,
+MAAC-00603,NJC,NJC_Cu_mono_l5_m_h2o,RC,Cu,mono,,,,2.1,3.61,,2.33,N1
+MAAC-00608,NJC,NJC_Cu_mono_l5_m,IC,Cu,mono,,1.8,2.91,1.95,3.3,"M-Ca, M-N1",,
+MAAC-00610,NJC,NJC_Cu_mono_l5_m,RC,Cu,mono,,,,2.1,3.61,,2.33,N1
+MAAC-00682,RAG,RAG_Ag_mono_pph_tbu_ag1,RC,Ag,mono,,,,3.24,4.46,,2.48,not coordinated
+MAAC-00687,RAG,RAG_Ag_bi_pph_tbu_ag2,RC,Ag,bi,,,,2.95,4.33,,2.48,not coordinated
+MAAC-00687,RAG,RAG_Ag_bi_pph_tbu_ag2,RC,Ag,bi,,,,4.41,4.57,,2.48,not coordinated
+MAAC-00691,RAG,RAG_Ag_mono_pph3_o_n_ag1,RC,Ag,mono,,,,3.06,4.24,,2.48,not coordinated
+MAAC-00699,RAG,RAG_Ag_bi_pph3_o_n_ag2,RC,Ag,bi,,,,3.11,4.32,,2.48,not coordinated
+MAAC-00699,RAG,RAG_Ag_bi_pph3_o_n_ag2,RC,Ag,bi,,,,3.83,3.9,,2.48,not coordinated
+MAAC-00704,RAG,RAG_Ag_mono_pph3_ag,RC,Ag,mono,,,,2.97,4.14,,2.48,not coordinated
+MAAC-00706,RAG,RAG_Ag_bi_pph3_ag,RC,Ag,bi,,,,3.69,3.34,,2.48,not coordinated
+MAAC-00706,RAG,RAG_Ag_bi_pph3_ag,RC,Ag,bi,,,,2.89,4.16,,2.48,not coordinated
+MAAC-00711,RAGCU,RAGCU_Ag_mono_ag1_n,RC,Ag,mono,,,,3.2,4.45,,2.48,not coordinated
+MAAC-00714,RAGCU,RAGCU_Ag_bi_ag2_n,IC,Ag,bi,,2.99,1.97,2.09,3.4,see distances,,
+MAAC-00714,RAGCU,RAGCU_Ag_bi_ag2_n,IC,Ag,bi,,3.21,2.01,4.39,4.44,see distances,,
+MAAC-00716,RAGCU,RAGCU_Ag_bi_ag2_n,RC,Ag,bi,,,,2.55,3.94,,2.48,not coordinated
+MAAC-00716,RAGCU,RAGCU_Ag_bi_ag2_n,RC,Ag,bi,,,,5.01,5.58,,2.48,not coordinated
+MAAC-00728,RAGCU,RAGCU_Cu_mono_cu1_n,IC,Cu,mono,,2.89,1.8,1.94,3.32,see distances,,
+MAAC-00730,RAGCU,RAGCU_Cu_mono_cu1_n,RC,Cu,mono,,,,2.22,3.71,,2.33,N1
+MAAC-00734,RAGCU,RAGCU_Cu_bi_cu2_n,IC,Cu,bi,,2.87,1.84,1.9,3.27,see distances,,
+MAAC-00734,RAGCU,RAGCU_Cu_bi_cu2_n,IC,Cu,bi,,3.09,1.86,4.03,4.27,see distances,,
+MAAC-00736,RAGCU,RAGCU_Cu_bi_cu2_n,RC,Cu,bi,,,,2.06,3.65,,2.33,N1
+MAAC-00736,RAGCU,RAGCU_Cu_bi_cu2_n,RC,Cu,bi,,,,4.33,5.19,,2.33,not coordinated
+MAAC-00741,RAGCU,RAGCU_Ag_mono_pcm2024_ag1,RC,Ag,mono,,,,3.2,4.45,,2.48,not coordinated
+MAAC-00746,RAGCU,RAGCU_Ag_bi_pcm2024_ag2,IC,Ag,bi,,2.99,1.97,2.09,3.4,see distances,,
+MAAC-00746,RAGCU,RAGCU_Ag_bi_pcm2024_ag2,IC,Ag,bi,,3.21,2.01,4.39,4.44,see distances,,
+MAAC-00748,RAGCU,RAGCU_Ag_bi_pcm2024_ag2,RC,Ag,bi,,,,2.55,3.94,,2.48,not coordinated
+MAAC-00748,RAGCU,RAGCU_Ag_bi_pcm2024_ag2,RC,Ag,bi,,,,5.01,5.58,,2.48,not coordinated
+MAAC-00758,RAGCU,RAGCU_Cu_mono_pcm2024_cu1,IC,Cu,mono,,2.89,1.8,1.94,3.32,see distances,,
+MAAC-00763,RAGCU,RAGCU_Cu_bi_pcm2024_cu2,IC,Cu,bi,,2.87,1.84,1.9,3.27,see distances,,
+MAAC-00763,RAGCU,RAGCU_Cu_bi_pcm2024_cu2,IC,Cu,bi,,3.09,1.86,4.03,4.27,see distances,,
+MAAC-00765,RAGCU,RAGCU_Cu_bi_pcm2024_cu2,RC,Cu,bi,,,,2.06,3.65,,2.33,N1
+MAAC-00765,RAGCU,RAGCU_Cu_bi_pcm2024_cu2,RC,Cu,bi,,,,4.33,5.19,,2.33,not coordinated
+MAAC-00871,AOC,AOC_Cu_bi_cl,IC,Cu,bi,,2.85,1.87,2.18,3.34,see distances,,
+MAAC-00871,AOC,AOC_Cu_bi_cl,IC,Cu,bi,,2.87,1.9,2.07,3.27,see distances,,
+MAAC-00873,AOC,AOC_Cu_bi_cl,RC,Cu,bi,,,,3.27,4.48,,2.33,not coordinated
+MAAC-00873,AOC,AOC_Cu_bi_cl,RC,Cu,bi,,,,2.06,3.64,,2.33,N1
+MAAC-00878,AOC,AOC_Cu_bi_f,IC,Cu,bi,,2.84,1.87,2.24,3.36,see distances,,
+MAAC-00878,AOC,AOC_Cu_bi_f,IC,Cu,bi,,2.86,1.89,2.07,3.28,see distances,,
+MAAC-00880,AOC,AOC_Cu_bi_f,RC,Cu,bi,,,,3.52,4.68,,2.33,not coordinated
+MAAC-00880,AOC,AOC_Cu_bi_f,RC,Cu,bi,,,,2.08,3.68,,2.33,N1
+MAAC-00885,AOC,AOC_Cu_bi_br,IC,Cu,bi,,2.85,1.86,2.17,3.34,see distances,,
+MAAC-00885,AOC,AOC_Cu_bi_br,IC,Cu,bi,,2.87,1.9,2.07,3.26,see distances,,
+MAAC-00887,AOC,AOC_Cu_bi_br,RC,Cu,bi,,,,3.31,4.52,,2.33,not coordinated
+MAAC-00887,AOC,AOC_Cu_bi_br,RC,Cu,bi,,,,2.06,3.62,,2.33,N1
+MAAC-00892,AOC,AOC_Cu_bi_i,IC,Cu,bi,,2.87,1.86,2.15,3.35,see distances,,
+MAAC-00892,AOC,AOC_Cu_bi_i,IC,Cu,bi,,2.87,1.91,2.09,3.27,see distances,,
+MAAC-00894,AOC,AOC_Cu_bi_i,RC,Cu,bi,,,,3.52,4.94,,2.33,not coordinated
+MAAC-00894,AOC,AOC_Cu_bi_i,RC,Cu,bi,,,,2.06,3.49,,2.33,N1
